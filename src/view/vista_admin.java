@@ -156,7 +156,7 @@ public class vista_admin extends javax.swing.JFrame {
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
         jLabel11.setText("Estudiantes");
-        jPanel5.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 130, 270, 70));
+        jPanel5.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 80, 270, 70));
 
         jTabbedPane1.addTab("tab2", jPanel5);
 
@@ -167,7 +167,7 @@ public class vista_admin extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("tab3", jPanel6);
 
-        jPanel1.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 110, 1010, 560));
+        jPanel1.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 150, 1010, 520));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

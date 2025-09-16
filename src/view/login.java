@@ -37,7 +37,6 @@ public class login extends javax.swing.JFrame {
         jSeparator2 = new javax.swing.JSeparator();
         jPasswordField1 = new javax.swing.JPasswordField();
         jLabel5 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
@@ -62,7 +61,7 @@ public class login extends javax.swing.JFrame {
         jTextField1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(0, 0, 0));
         jTextField1.setBorder(null);
-        jPanel2.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 340, 270, 30));
+        jPanel2.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 340, 270, 30));
 
         jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
         jPanel2.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 370, 270, 10));
@@ -77,15 +76,12 @@ public class login extends javax.swing.JFrame {
 
         jPasswordField1.setForeground(new java.awt.Color(0, 0, 0));
         jPasswordField1.setBorder(null);
-        jPanel2.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 420, 270, 30));
+        jPanel2.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 200, 270, 30));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Plataforma Estudiantil");
         jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 90, 470, 80));
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/utils/CLEAN CODE (3).png"))); // NOI18N
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(-70, 0, 750, 630));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/utils/login (1).png"))); // NOI18N
         jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 10, 260, 280));
@@ -97,7 +93,7 @@ public class login extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 490, 210, 50));
+        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 60, 210, 50));
 
         jButton2.setText("Se olvido la contraseña");
         jPanel2.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 550, 210, -1));
@@ -164,7 +160,6 @@ public class login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
